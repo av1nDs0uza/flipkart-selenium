@@ -1,0 +1,25 @@
+{
+  "name": "flipkart-selenium",
+  "version": "1.0.0",
+  "description": "browserstack automaiton test \r Create a free trial account on BrowserStack to automate this test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm update browserstack-node-sdk"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserstack": "^1.6.1",
+    "browserstack-local": "^1.4.8",
+    "dotenv": "^16.0.0",
+    "js-yaml": "^4.1.0",
+    "selenium-webdriver": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "browserstack-node-sdk": "^1.32.0",
+    "jest": "^27.4.7"
+  }
+}
