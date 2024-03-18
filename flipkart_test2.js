@@ -7,6 +7,7 @@ const yaml = require('js-yaml');
 async function getBrowserStackConfig() {
   const data = fs.readFileSync('browserstack.yml', 'utf8');
   return yaml.load(data); 
+}
 
 async function runTest(browserstackConfig) {
   console.log('BrowserStack Config:', browserstackConfig); 
